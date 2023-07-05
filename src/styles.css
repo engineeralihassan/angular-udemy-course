@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+h1{
+    color: goldenrod;
+    background-color: rgb(24, 23, 23);
+    padding: 10px 20px ;
+    margin-top: 20px;
+    font-size: 40px;
+    width: fit-content;
+    
+    }
+    h2{
+        background-color: blueviolet;
+        color: #fff;
+        font-size: 30px;
+        margin-top: 10px;
+        padding: 10px 20px;
+        width: fit-content;
+
+    }
+    p{
+        margin-top: 6px;
+        padding: 10px 20px;
+        color: black;
+        line-height: 1.6rem;
+
+    }
