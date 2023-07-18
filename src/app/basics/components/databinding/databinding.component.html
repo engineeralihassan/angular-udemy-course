@@ -19,3 +19,11 @@
   on the button and
 </p>
 <button (click)c="enable()">enable button</button>
+<input type="text" name="" id="" (input)="oninput($event)" />
+<h2>2 way binding</h2>
+<input type="text" name="" [(ngModel)]="val" id="" />
+<p>You intered :{{ val }}</p>
+<h2>Assignment</h2>
+<input [(ngModel)]="name" />
+<p>Your name is: {{ name }}</p>
+<button disabled="name===''" (click)="clear()">Clear name</button>

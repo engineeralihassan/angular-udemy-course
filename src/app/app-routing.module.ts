@@ -6,8 +6,8 @@ import { DatabindingComponent } from './basics/components/databinding/databindin
 
 const routes: Routes = [
 
-  {path:"sections/01/Basics",component:Component1Component},
-  {path:"sections/02/data-binding",component:DatabindingComponent}
+  {path:"sections/basics",component:Component1Component},
+  {path:"sections/databinding",component:DatabindingComponent}
 ];
 
 @NgModule({
